@@ -12,7 +12,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 58,
+    "uniqCompNum": 60,
     "versionPublish": "4.5.4",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/screen-shot-2561-03-29-at-10.50.47-128x76.png",
@@ -1575,7 +1575,97 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "2.Firebase: Real-Time Database as our Web Backend",
+          "title": "2. &nbsp;Edit your web with Atom and Metronics",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Click Slides Below</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-1m"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/1522311577858-2000x529.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/1522311665384-2000x1150.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/1522311736020-1624x734.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-1n"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "3.Firebase: Real-Time Database as our Web Backend",
           "text": "",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Click Slides Below</a>",
           "_tags": [
@@ -1742,7 +1832,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "3.Anaconda, Jupyter Notebook, and Python<br>as Data Processing Engine for our Web",
+          "title": "4.Anaconda, Jupyter Notebook, and Python<br>as Data Processing Engine for our Web",
           "text": "",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Click Slides Below</a>",
           "_tags": [
@@ -1895,7 +1985,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "4. Plotly: plot interactive graph and then embed on any website",
+          "title": "5. Plotly: plot interactive graph and then embed on any website",
           "text": "",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Click Slides Below</a>",
           "_tags": [
@@ -2040,7 +2130,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "5. Github.com: to host our code and Github Pages: to host our website",
+          "title": "6. Github.com: to host our code and Github Pages: to host our website",
           "text": "",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Click Slides Below</a>",
           "_tags": [
@@ -2060,36 +2150,25 @@
             "bgColor": "#ffffff",
             "slides": [
               {
-                "image": "images/slide1.jpg",
-                "active": true,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
+                "image": "@PROJECT_PATH@/assets/images/1522312847251-2000x1147.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
                 "title": "Slide 1",
                 "contentAlign": "right",
                 "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "images/slide2.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
+                "image": "@PROJECT_PATH@/assets/images/1522312942151-2000x1158.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
                 "title": "Slide 2",
                 "contentAlign": "left",
                 "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "images/slide3.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Slide 3",
-                "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ]
@@ -2131,7 +2210,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "6. (Bonus) Send Email via Python&nbsp;<br>Step1: follow <a href=\"https://github.com/bemoss/bemoss_os2.1/wiki/Set-up-Email-notification\" target=\"_blank\">this instruction</a> to configure your gmail account<br>Step2: go to download python code <a href=\"https://gist.github.com/kwarodom/e8840595f727ff3299b1221a5cda07f5\" target=\"_blank\">here</a><br>Step3: edit python code using Pycharm, Jypeter Notebook, or Google Colab&nbsp;<br>Step4: run to send email to recipients",
+          "title": "7. (Bonus) Send Email via Python&nbsp;<br>Step1: follow <a href=\"https://github.com/bemoss/bemoss_os2.1/wiki/Set-up-Email-notification\" target=\"_blank\">this instruction</a> to configure your gmail account<br>Step2: go to download python code <a href=\"https://gist.github.com/kwarodom/e8840595f727ff3299b1221a5cda07f5\" target=\"_blank\">here</a><br>Step3: edit python code using Pycharm, Jypeter Notebook, or Google Colab&nbsp;<br>Step4: run to send email to recipients",
           "text": "",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Click Slides Below</a>",
           "_tags": [
