@@ -15,6 +15,8 @@
     "uniqCompNum": 58,
     "versionPublish": "4.5.4",
     "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///Users/kwarodom/Workspace/enreka.github.io",
     "favicon": "@PROJECT_PATH@/assets/images/screen-shot-2561-03-29-at-10.50.47-128x76.png",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-116603660-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-116603660-1');\r\n</script>",
@@ -1420,7 +1422,7 @@
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
-            "autoplay": false,
+            "autoplay": true,
             "fullScreen": false,
             "paddingTop": "0",
             "paddingBottom": "0",
@@ -1428,7 +1430,7 @@
             "bgColor": "#ffffff",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/1522262435496-2000x1275.jpg",
+                "image": "file:///Users/kwarodom/Downloads/ENREKA/enraka//assets/images/1522262435496-2000x1275.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -1439,7 +1441,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/1522262603900-2000x758.jpg",
+                "image": "file:///Users/kwarodom/Downloads/ENREKA/enraka//assets/images/1522262603900-2000x758.jpg",
                 "active": true,
                 "showButtons": false,
                 "showText": false,
@@ -1450,7 +1452,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/1522262733170-2000x1288.jpg",
+                "image": "file:///Users/kwarodom/Downloads/ENREKA/enraka//assets/images/1522262733170-2000x1288.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -1461,7 +1463,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/1522263376873-2000x1270.jpg",
+                "image": "file:///Users/kwarodom/Downloads/ENREKA/enraka//assets/images/1522263376873-2000x1270.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -1472,7 +1474,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/1522263478872-2000x1280.jpg",
+                "image": "file:///Users/kwarodom/Downloads/ENREKA/enraka//assets/images/1522263478872-2000x1280.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -1483,7 +1485,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/1522263569306-1999x1273.jpg",
+                "image": "file:///Users/kwarodom/Downloads/ENREKA/enraka//assets/images/1522263569306-1999x1273.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -1494,7 +1496,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/1522263909595-2000x1274.jpg",
+                "image": "file:///Users/kwarodom/Downloads/ENREKA/enraka//assets/images/1522263909595-2000x1274.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -1505,7 +1507,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/1522264011065-2000x1353.jpg",
+                "image": "file:///Users/kwarodom/Downloads/ENREKA/enraka//assets/images/1522264011065-2000x1353.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -1516,7 +1518,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/1522264393796-1592x986.jpg",
+                "image": "file:///Users/kwarodom/Downloads/ENREKA/enraka//assets/images/1522264393796-1592x986.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -1527,7 +1529,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/1522264903873-2000x1111.jpg",
+                "image": "file:///Users/kwarodom/Downloads/ENREKA/enraka//assets/images/1522264903873-2000x1111.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -1587,7 +1589,7 @@
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
-            "autoplay": false,
+            "autoplay": true,
             "fullScreen": false,
             "paddingTop": "1",
             "paddingBottom": "1",
@@ -1754,7 +1756,7 @@
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
-            "autoplay": false,
+            "autoplay": true,
             "fullScreen": false,
             "paddingTop": "1",
             "paddingBottom": "1",
@@ -1907,7 +1909,7 @@
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
-            "autoplay": false,
+            "autoplay": true,
             "fullScreen": false,
             "paddingTop": "1",
             "paddingBottom": "1",
@@ -2052,7 +2054,7 @@
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
-            "autoplay": false,
+            "autoplay": true,
             "fullScreen": false,
             "paddingTop": "1",
             "paddingBottom": "1",
@@ -2116,8 +2118,8 @@
             "showTitle": true,
             "showText": false,
             "showButtons": true,
-            "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingTop": 2,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -2131,7 +2133,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "6. (Bonus) Send Email via Python&nbsp;<br>Step1: follow <a href=\"https://github.com/bemoss/bemoss_os2.1/wiki/Set-up-Email-notification\" target=\"_blank\">this instruction</a> to configure your gmail account<br>Step2: go to download python code <a href=\"https://gist.github.com/kwarodom/e8840595f727ff3299b1221a5cda07f5\" target=\"_blank\">here</a><br>Step3: edit python code using Pycharm, Jypeter Notebook, or Google Colab&nbsp;<br>Step4: run to send email to recipients",
+          "title": "6. (Bonus) Send Email via Python&nbsp;<br>Step1: go to download code here",
           "text": "",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Click Slides Below</a>",
           "_tags": [
@@ -2143,7 +2145,7 @@
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
-            "autoplay": false,
+            "autoplay": true,
             "fullScreen": false,
             "paddingTop": "1",
             "paddingBottom": "1",
@@ -2151,58 +2153,36 @@
             "bgColor": "#ffffff",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/1522306967189-2-1704x1654.jpg",
+                "image": "images/slide1.jpg",
                 "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
                 "title": "Slide 1",
                 "contentAlign": "right",
                 "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/1522307337307-2000x1130.jpg",
+                "image": "images/slide2.jpg",
                 "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
                 "title": "Slide 2",
                 "contentAlign": "left",
                 "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/1522307578633-2000x1011.jpg",
+                "image": "images/slide3.jpg",
                 "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
                 "title": "Slide 3",
                 "contentAlign": "center",
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/1522307677711-2000x502.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "title": "Slide 3",
-                "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/1522307901891-2000x684.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "title": "Slide 1",
-                "contentAlign": "right",
-                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ]
