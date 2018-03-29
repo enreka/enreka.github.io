@@ -14,7 +14,12 @@
     "versionFirst": "4.6.6",
     "uniqCompNum": 53,
     "versionPublish": "4.5.4",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/screen-shot-2561-03-29-at-10.50.47-128x76.png",
+    "noImageResize": "",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-116603660-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-116603660-1');\r\n</script>",
+    "cookiesAlert": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
