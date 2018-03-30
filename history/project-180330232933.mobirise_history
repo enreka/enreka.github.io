@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-03-23_2227",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -12,7 +12,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 61,
+    "uniqCompNum": 60,
     "versionPublish": "4.5.4",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/screen-shot-2561-03-29-at-10.50.47-128x76.png",
@@ -632,7 +632,7 @@
           },
           "title": "ENREKA &nbsp;<div>Your Journey to become a Digital Energy Engineer starts here&nbsp;</div>",
           "text": "Learn from our energy experts for free!",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"page1.html#msg-box5-u\" data-toolbar=\"-mbrBtnMove\">LET'S GET STARTED</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"page1.html#msg-box4-h\" data-toolbar=\"-mbrBtnMove\">LET'S GET STARTED</a> ",
           "_tags": [
             "Theme"
           ],
@@ -687,15 +687,15 @@
               "src": "@PROJECT_PATH@/assets/images/img-5481-1400x1050.jpg",
               "link": "",
               "alt": "",
-              "title": ""
+              "title": "",
+              "active": true
             },
             "video": {
-              "src": "https://www.youtube.com/watch?v=0p3Yitz3Kig",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
               "class": "mbr-figure__img",
               "aspectratio": "16:9",
               "autoplay": false,
-              "loop": false,
-              "active": true
+              "loop": false
             }
           },
           "title": "BASIC PYTHON FOR ENERGY ENGINEER",
@@ -1331,15 +1331,15 @@
               "src": "@PROJECT_PATH@/assets/images/img-5481-1400x1050.jpg",
               "link": "",
               "alt": "",
-              "title": ""
+              "title": "",
+              "active": true
             },
             "video": {
-              "src": "https://www.youtube.com/watch?v=0p3Yitz3Kig",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
               "class": "mbr-figure__img",
               "aspectratio": "16:9",
               "autoplay": false,
-              "loop": false,
-              "active": true
+              "loop": false
             }
           },
           "title": "BASIC PYTHON FOR ENERGY ENGINEER",
@@ -2292,34 +2292,6 @@
           ],
           "_name": "slider",
           "_anchor": "slider-1e"
-        },
-        {
-          "_styles": {},
-          "_params": {
-            "showText": false,
-            "bgColor": "#252525"
-          },
-          "media": {
-            "image": {
-              "src": "images/slide3.jpg",
-              "class": "mbr-figure__img",
-              "width": 1400
-            },
-            "video": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "src": "https://youtu.be/z-mnFSX5j_0",
-              "autoplay": false,
-              "loop": false,
-              "aspectratio": "16:9"
-            }
-          },
-          "text": "Cut down the development time with drag-and-drop website builder.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "video1",
-          "_anchor": "video1-1o"
         },
         {
           "_params": {
