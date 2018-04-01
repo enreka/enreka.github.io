@@ -1189,27 +1189,27 @@ var Dashboard = function() {
                 },
 
                 "dataProvider": [{
-                    "year": 2009,
-                    "income": 2,
+                    "year": 1,
+                    "income": 15,
                     "expenses": 50
                 }, {
-                    "year": 2010,
+                    "year": 2,
                     "income": 10,
-                    "expenses": 30
+                    "expenses": 65
                 }, {
-                    "year": 2011,
+                    "year": 3,
                     "income": 30.1,
                     "expenses": 34.9
                 }, {
-                    "year": 2012,
+                    "year": 4,
                     "income": 29.5,
                     "expenses": 31.1
                 }, {
-                    "year": 2013,
+                    "year": 5,
                     "income": 30.6,
                     "expenses": 28.2,
                 }, {
-                    "year": 2014,
+                    "year": 6,
                     "income": 34.1,
                     "expenses": 32.9,
                     "dashLengthColumn": 5,
