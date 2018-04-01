@@ -14,7 +14,7 @@ var Dashboard = function() {
 
             var setMap = function(name) {
                 var map = jQuery('#vmap_' + name);
-                
+
                 if (map.size() !== 1) {
                     return;
                 }
@@ -50,7 +50,7 @@ var Dashboard = function() {
                 };
 
                 data.map = name + '_en';
-              
+
                 map.width(map.parent().parent().width());
                 map.show();
                 map.vectorMap(data);
@@ -1190,12 +1190,12 @@ var Dashboard = function() {
 
                 "dataProvider": [{
                     "year": 2009,
-                    "income": 23.5,
-                    "expenses": 21.1
+                    "income": 2,
+                    "expenses": 50
                 }, {
                     "year": 2010,
-                    "income": 26.2,
-                    "expenses": 30.5
+                    "income": 10,
+                    "expenses": 30
                 }, {
                     "year": 2011,
                     "income": 30.1,
@@ -1225,7 +1225,7 @@ var Dashboard = function() {
                     "alphaField": "alpha",
                     "balloonText": "<span style='font-size:12px;'>[[title]] in [[category]]:<br><span style='font-size:20px;'>[[value]]</span> [[additional]]</span>",
                     "fillAlphas": 1,
-                    "title": "Income",
+                    "title": "Employees",
                     "type": "column",
                     "valueField": "income",
                     "dashLengthField": "dashLengthColumn"
@@ -1241,7 +1241,7 @@ var Dashboard = function() {
                     "bulletBorderThickness": 3,
                     "fillAlphas": 0,
                     "lineAlpha": 1,
-                    "title": "Expenses",
+                    "title": "Industrial Average",
                     "valueField": "expenses"
                 }],
                 "categoryField": "year",
