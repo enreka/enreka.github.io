@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v4.5.4, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <meta name="viewport" content="idth=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/screen-shot-2561-03-29-at-10.50.47-128x76.png" type="image/x-icon">
-  <meta name="description" content="">
-  <title>Home</title>
+  <meta name="description" content="Web Builder Description">
+  <title>PTT HR Dashboard</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&subset=cyrillic,latin,greek,vietnamese">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/soundcloud-plugin/style.css">
@@ -24,6 +24,25 @@
       color: orange;
   }
   </style>
+
+  <!--begin::Web font -->
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+  <script>
+      WebFont.load({
+          google: {"families":["Poppins:300,400,500,600,700","Roboto:300,400,500,600,700"]},
+          active: function() {
+              sessionStorage.fonts = true;
+          }
+      });
+  </script>
+  <!--end::Web font -->
+  <!--begin::Base Styles -->
+  <!-- <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
+  <link href="assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" /> -->
+  <!--end::Base Styles -->
+  <link rel="shortcut icon" href="assets/demo/default/media/img/logo/favicon.ico" />
+  <link href="assets/vendors/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
 
@@ -69,7 +88,7 @@
                     <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
                         <div class="mbr-navbar__column">
                             <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-gray" href="index.html">HOME</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-gray" href="page1.html">CLASSES</a></li><li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-gray" href="index.html#contacts1-c">CONTACT</a></li></ul>
-                            <ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__btn btn btn-primary" data-toggle="modal" href="#basic">SIGN IN</a></li></ul>
+                            <!-- <ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__btn btn btn-primary" data-toggle="modal" href="#basic">SIGN IN</a></li></ul> -->
                         </div>
                     </nav>
                 </div>
@@ -78,13 +97,171 @@
     </div>
 </section>
 
-<section class="engine"><a href="https://mobirise.co/q">bootstrap carousel</a></section><section  id="header4-7" data-rv-view="0" style="background-image: url(assets/pages/img/Home/dash.jpg);">
+<section class="engine"><a href="https://mobirise.co/q">bootstrap carousel</a></section><section  id="header4-7" data-rv-view="0" style="background-image: url(assets/pages/img/Home/dash_blank.jpg);">
     <div class="row">
         <div class="col-md-12">
-          <img src="assets/pages/img/Home/dash.jpg" width="1680px" height="293px" class="center">
+          <img src="assets/pages/img/Home/dash_blank.jpeg" width="1680px" height="90px" class="center">
         </div>
       </div>
 </section>
+
+<div class="row">
+    <div class="col-lg-12 col-xs-12 col-sm-12">
+        <div class="portlet light ">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="icon-bubble font-dark hide"></i>
+                    <span class="caption-subject font-hide bold uppercase"> Personal Profile </span>
+                </div>
+
+            </div>
+            <div class="portlet-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <!--begin: widget 1-1 -->
+                        <div class="mt-widget-1">
+                            <div class="mt-icon">
+                                <a href="#">
+                                    <i class="icon-plus"></i>
+                                </a>
+                            </div>
+                            <div class="mt-img">
+                                <img src="assets/pages/img/learners/win.jpg" width="200px" height="200px"> </div>
+                            <div class="mt-body">
+                                <h3 class="mt-username">Win Mayuraritpibal</h3>
+                                <p class="mt-user-title"> Engineer at PTT Public Company limited </p>
+                                <p class="mt-user-title"> Male 3 | years work experience </p>
+                            </div>
+                        </div>
+                        <!--end: widget 1-1 -->
+                    </div>
+                    <div class="col-md-8">
+                      <div class="portlet light portlet-fit bordered">
+                          <div class="portlet-body">
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <table id="user" class="table table-bordered table-striped">
+                                          <tbody>
+                                              <tr>
+                                                  <td style="width:15%"> Age </td>
+                                                  <td style="width:50%">
+                                                      <a href="javascript:;" id="username" data-type="text" data-pk="1" data-original-title="Enter username"> 25 </a>
+                                                  </td>
+                                                  <!-- <td style="width:35%">
+                                                      <span class="text-muted"> Simple text field </span>
+                                                  </td> -->
+                                              </tr>
+                                              <tr>
+                                                  <td style="width:15%"> Skill Level </td>
+                                                  <td style="width:50%">
+                                                      <a href="javascript:;" id="username" data-type="text" data-pk="1" data-original-title="Enter username"> Newbies </a>
+                                                  </td>
+                                                  <!-- <td style="width:35%">
+                                                      <span class="text-muted"> Simple text field </span>
+                                                  </td> -->
+                                              </tr>
+                                              <tr>
+                                                  <td> Specialization </td>
+                                                  <td>
+                                                      <a href="javascript:;" id="firstname" data-type="text" data-pk="1" data-placement="right" data-placeholder="Required" data-original-title="Enter your firstname"> Energy Engineer Data Analyst </a>
+                                                  </td>
+                                                  <!-- <td>
+                                                      <span class="text-muted"> Required text field, originally empty </span>
+                                                  </td> -->
+                                              </tr>
+                                              <tr>
+                                                  <td> Experience </td>
+                                                  <td>
+                                                      <a href="javascript:;" id="sex" data-type="select" data-pk="1" data-value="" data-original-title="Select sex"> Electric & Hybrid Vehicle Ter Tech in Asia Singapore 2017 Introduction to Consulting Sk Practical Innovation </a>
+                                                  </td>
+                                                  <!-- <td>
+                                                      <span class="text-muted"> Select, loaded from js array. Custom display </span>
+                                                  </td> -->
+                                              </tr>
+                                              <tr>
+                                                  <td> Certificate </td>
+                                                  <td>
+                                                      <a href="javascript:;" id="group" data-type="select" data-pk="1" data-value="5" data-source="/groups" data-original-title="Select group"> Ecosystems Amazon Web Services: Deploying and Provisioning One Month Programming for Non-Pro- grammers Getting Started with AWS Technical Up and Running with Python </a>
+                                                  </td>
+                                                  <!-- <td>
+                                                      <span class="text-muted"> Select, loaded from server.
+                                                          <strong>No buttons</strong> mode </span>
+                                                  </td> -->
+                                              </tr>
+                                              <tr>
+                                                  <td> Status </td>
+                                                  <td>
+                                                      <a href="javascript:;" id="status" data-type="select" data-pk="1" data-value="0" data-source="/status" data-original-title="Select status"> Active </a>
+                                                  </td>
+                                                  <!-- <td>
+                                                      <span class="text-muted"> Error when loading list items </span>
+                                                  </td> -->
+                                              </tr>
+                                          </tbody>
+                                      </table>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<section class="engine"><a href="https://mobirise.co/q">bootstrap carousel</a></section><section  id="header4-7" data-rv-view="0">
+    <div class="row">
+        <div class="col-md-12">
+          <img src="assets/pages/img/personal_page/enrekacourseblock.png" width="1680px" height="620px" class="center">
+        </div>
+      </div>
+</section>
+
+<div class="m-content">
+  <div class="row">
+    <div class="col-lg-12">
+      <!--begin::Portlet-->
+      <div class="m-portlet" id="m_portlet">
+        <div class="m-portlet__head">
+          <div class="m-portlet__head-caption">
+            <div class="m-portlet__head-title">
+              <span class="m-portlet__head-icon">
+                <i class="flaticon-map-location"></i>
+              </span>
+              <h3 class="m-portlet__head-text">
+                Basic Calendar
+              </h3>
+            </div>
+          </div>
+          <div class="m-portlet__head-tools">
+            <ul class="m-portlet__nav">
+              <li class="m-portlet__nav-item">
+                <a href="#" class="btn btn-accent m-btn m-btn--custom m-btn--icon m-btn--pill m-btn--air">
+                  <span>
+                    <i class="la la-plus"></i>
+                    <span>
+                      Add Event
+                    </span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="m-portlet__body">
+          <div id="m_calendar"></div>
+        </div>
+      </div>
+      <!--end::Portlet-->
+    </div>
+  </div>
+</div>
+</div>
 
 <div class="row">
     <div class="col-lg-12 col-xs-12 col-sm-12">
@@ -92,8 +269,7 @@
             <div class="portlet-title">
                 <div class="caption">
                     <i class="icon-microphone font-dark hide"></i>
-                    <span class="caption-subject bold font-dark uppercase"> Popular Courses </span>
-                    <span class="caption-helper"> ... </span>
+                    <span class="caption-subject bold font-dark uppercase"> Enrolled Courses </span>
                 </div>
             </div>
             <div class="portlet-body">
@@ -159,7 +335,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="mt-widget-2">
-                            <div class="mt-head"  style="background-image: url(assets/pages/img/courses/coursepic-02.png" <a href="profile.html"></a>>
+                            <div class="mt-head" style="background-image: url(assets/pages/img/courses/coursepic-02.png">
                                 <div class="mt-head-label">
                                     <!-- <button type="button" class="btn purple">
                                           <img src="assets/pages/img/corporate/pea-logo-tb.png" width="25px" height="25px">
@@ -177,7 +353,7 @@
                                 </div>
                             </div>
                             <div class="mt-body">
-                                <h3 class="mt-body-title"><a href="page5.html"> Python For Energy Engineers </h3>
+                                <h3 class="mt-body-title"> Python For Energy Engineers </h3>
                                 <p class="mt-body-description"> In this course you will learn basic Python, NumPy, SciPy, Pandas, and Web Development </p>
                                 <ul class="mt-body-stats" style="padding-top: 0px; margin-bottom: 0px;">
                                         <font color="#4CB9D2">Estimated salary: 50k-65k</font>
@@ -340,322 +516,19 @@
     </div>
 </div>
 
-<section class="engine"><a href="https://mobirise.co/q">bootstrap carousel</a></section><section  id="header4-8" data-rv-view="0">
-    <div class="row">
-        <div class="col-md-12">
-          <img src="assets/pages/img/Home/meetexpert.jpg" width="1680px" height="1063px" class="center">
-        </div>
-      </div>
-</section>
-
-<section class="engine"><a href="https://mobirise.co/q">bootstrap carousel</a></section><section  id="header4-8" data-rv-view="0">
-    <div class="row">
-        <div class="col-md-12">
-          <img src="assets/pages/img/Home/testimonial.jpg" width="1680px" height="1362px" class="center">
-        </div>
-      </div>
-</section>
 
 
-<section class="engine"><a href="https://mobirise.co/q">bootstrap carousel</a></section><section  id="header4-8" data-rv-view="0">
-    <div class="mbr-section__container container mbr-section__container--std-top-padding">
-        <div class="mbr-section__row row">
-            <div class="mbr-section__col col-xs-12 col-sm-4">
-                <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">
-                    <figure class="mbr-figure"><img src="assets/images/untitled-4-3-600x659.jpg" class="mbr-figure__img"></figure>
-                </div>
-                <div class="mbr-section__container mbr-section__container--middle">
-                    <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">
-                        <h3 class="mbr-header__text">ACCESS KNOWLEDGE HUB</h3>
-                    </div>
-                </div>
-                <div class="mbr-section__container mbr-section__container--last" style="padding-bottom: 93px;">
-                    <div class="mbr-article mbr-article--wysiwyg">
-                        <p>Knowledge resourcesand online classes <br>fromall around the worldavailable in one place.<br>Here we ignite knowledge sharing and <br>ideas exchangeinternationally.</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="mbr-section__col col-xs-12 col-sm-4">
-                <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">
-                    <figure class="mbr-figure"><img src="assets/images/untitled-4-4-600x659.jpg" class="mbr-figure__img"></figure>
-                </div>
-                <div class="mbr-section__container mbr-section__container--middle">
-                    <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">
-                        <h3 class="mbr-header__text">PERSONAL DEVELOPMENT</h3>
-                    </div>
-                </div>
-                <div class="mbr-section__container mbr-section__container--last" style="padding-bottom: 93px;">
-                    <div class="mbr-article mbr-article--wysiwyg">
-                        <p>Learn specific sets of skills directly from <br>experts in Energy Industry Advance your skills <br>and career through a guided Enreka Industry Experts</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="mbr-section__col col-xs-12 col-sm-4">
-                <div class="mbr-section__container mbr-section__container--center mbr-section__container--middle">
-                    <figure class="mbr-figure"><img src="assets/images/untitled-4-5-600x659.jpg" class="mbr-figure__img"></figure>
-                </div>
-                <div class="mbr-section__container mbr-section__container--middle">
-                    <div class="mbr-header mbr-header--reduce mbr-header--center mbr-header--wysiwyg">
-                        <h3 class="mbr-header__text">CAREER IN ENERGY INDUSTRY</h3>
-                    </div>
-                </div>
-                <div class="mbr-section__container mbr-section__container--last" style="padding-bottom: 93px;">
-                    <div class="mbr-article mbr-article--wysiwyg">
-                        <p>Build your Learning Profile, <br>track individual progress,<br>and reviewed by topEnergy corporate.<br>Higher chance to berecruit from <br>world classEnergy company with<br>certified course structurefrom <br>Energy Institution.</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="mbr-section mbr-section--relative mbr-section--fixed-size" id="contacts1-c" data-rv-view="17" style="background-color: rgb(101, 190, 203);">
-
-    <div class="mbr-section__container container">
-        <div class="mbr-contacts mbr-contacts--wysiwyg row" style="padding-top: 45px; padding-bottom: 45px;">
-            <div class="col-sm-4">
-                <div><img src="assets/images/untitled-4-8-265x241.jpg" class="mbr-contacts__img mbr-contacts__img--left"></div>
-            </div>
-            <div class="col-sm-8">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="mbr-contacts__text"><strong><br></strong><br><br><strong>ADDRESS</strong><br>Bangkok, Thailand</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <p class="mbr-contacts__text"><strong><br></strong><br><br><strong>CONTACTS</strong><br>Email: enreka.th@gmail.com<br>Phone: +66 951615011<br><br></p>
-                    </div>
-                    <div class="col-sm-4"><p class="mbr-contacts__text"><strong><br></strong></p><p class="mbr-contacts__text"><strong><br></strong></p><p class="mbr-contacts__text"><strong><br></strong></p><p class="mbr-contacts__text"><strong>SUPPORTING ORGANIZATION</strong></p><ul class="mbr-contacts__list"><li><a href="corporate.html">PTT&nbsp;</a></li><li>PEA&nbsp;</li><li>EGAT</li><li>MEA</li></ul></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div class="modal fade" id="basic" tabindex="-1" role="basic" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                <h4 class="modal-title">Login to ENREKA</h4>
-            </div>
-            <div class="modal-body">
-              <form class="form-horizontal" role="form">
-                  <div class="form-group">
-                      <label for="inputEmail1" class="col-md-2 control-label">Email</label>
-                      <div class="col-md-4">
-                          <input type="email" class="form-control" id="inputEmail1" placeholder="Email"> </div>
-                  </div>
-                  <div class="form-group">
-                      <label for="inputPassword12" class="col-md-2 control-label">Password</label>
-                      <div class="col-md-4">
-                          <input type="password" class="form-control" id="inputPassword12" placeholder="Password"> </div>
-                  </div>
-                  <div class="form-group">
-                      <div class="col-md-offset-2 col-md-4">
-                          <label class="mt-checkbox">
-                              <input type="checkbox"> Remember me
-                              <span></span>
-                          </label>
-                      </div>
-                  </div>
-                  <div class="form-group">
-                      <div class="col-md-offset-2 col-md-10">
-                          <button type="submit"><a data-toggle="modal" href="#assessment">Sign in</a></button>
-                      </div>
-                  </div>
-              </form>
-             </div>
 
 
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
 
-<div class="modal fade" id="assessment" tabindex="-1" role="basic" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-                <h4 class="modal-title">Login to ENREKA</h4>
-            </div>
-            <div class="modal-body">
-              <div class="row">
-                  <div class="col-md-12">
-                      <!-- BEGIN VALIDATION STATES-->
-                      <div class="portlet light portlet-fit portlet-form bordered">
-                          <div class="portlet-title">
-                              <div class="caption">
-                                  <i class=" icon-layers font-green"></i>
-                                  <span class="caption-subject font-green sbold uppercase">Please tell us your interests</span>
-                              </div>
-                              <div class="actions">
-                                  <a class="btn btn-circle btn-icon-only btn-default" href="javascript:;">
-                                      <i class="icon-cloud-upload"></i>
-                                  </a>
-                                  <a class="btn btn-circle btn-icon-only btn-default" href="javascript:;">
-                                      <i class="icon-wrench"></i>
-                                  </a>
-                                  <a class="btn btn-circle btn-icon-only btn-default" href="javascript:;">
-                                      <i class="icon-trash"></i>
-                                  </a>
-                              </div>
-                          </div>
-                          <div class="portlet-body">
-                              <!-- BEGIN FORM-->
-                              <form action="#" class="form-horizontal" id="form_sample_1">
-                                  <div class="form-body">
-                                      <div class="alert alert-danger display-hide">
-                                          <button class="close" data-close="alert"></button> You have some form errors. Please check below. </div>
-                                      <div class="alert alert-success display-hide">
-                                          <button class="close" data-close="alert"></button> Your form validation is successful! </div>
-                                      <div class="form-group form-md-line-input">
-                                          <label class="col-md-3 control-label" for="form_control_1">Hours/Week
-                                              <span class="required">*</span>
-                                          </label>
-                                          <div class="col-md-9">
-                                              <input type="text" class="form-control" placeholder="" name="name">
-                                              <div class="form-control-focus"> </div>
-                                              <span class="help-block">number of hours per week you will commit to learn on ENREKA</span>
-                                          </div>
-                                      </div>
 
-                                      <div class="form-group form-md-checkboxes">
-                                          <label class="col-md-3 control-label" for="form_control_1"> Soft Skills </label>
-                                          <div class="col-md-9">
-                                              <div class="md-checkbox-list">
-                                                  <div class="md-checkbox">
-                                                      <input type="checkbox" name="checkboxes1[]" value="1" id="checkbox1_1" class="md-check">
-                                                      <label for="checkbox1_1">
-                                                          <span></span>
-                                                          <span class="check"></span>
-                                                          <span class="box"></span> Design Thinking </label>
-                                                  </div>
-                                                  <div class="md-checkbox">
-                                                      <input type="checkbox" name="checkboxes1[]" value="2" id="checkbox1_2" class="md-check">
-                                                      <label for="checkbox1_2">
-                                                          <span></span>
-                                                          <span class="check"></span>
-                                                          <span class="box"></span> Critical Thinking </label>
-                                                  </div>
-                                                  <div class="md-checkbox">
-                                                      <input type="checkbox" name="checkboxes1[]" value="3" id="checkbox1_211" class="md-check">
-                                                      <label for="checkbox1_211">
-                                                          <span></span>
-                                                          <span class="check"></span>
-                                                          <span class="box"></span> Leadership, Teamwork, and Negotiation </label>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
 
-                                      <div class="form-group form-md-checkboxes">
-                                          <label class="col-md-3 control-label" for="form_control_1">Technologies</label>
-                                          <div class="col-md-9">
-                                              <div class="md-checkbox-inline">
-                                                  <div class="md-checkbox">
-                                                      <input type="checkbox" id="checkbox1_3" name="checkboxes2[]" value="1" class="md-check">
-                                                      <label for="checkbox1_3">
-                                                          <span></span>
-                                                          <span class="check"></span>
-                                                          <span class="box"></span> Programming </label>
-                                                  </div>
-                                                  <div class="md-checkbox">
-                                                      <input type="checkbox" id="checkbox1_4" name="checkboxes2[]" value="2" class="md-check">
-                                                      <label for="checkbox1_4">
-                                                          <span></span>
-                                                          <span class="check"></span>
-                                                          <span class="box"></span> Blockchain </label>
-                                                  </div>
-                                                  <div class="md-checkbox">
-                                                      <input type="checkbox" id="checkbox1_5" name="checkboxes2[]" value="3" class="md-check">
-                                                      <label for="checkbox1_5">
-                                                          <span></span>
-                                                          <span class="check"></span>
-                                                          <span class="box"></span> Artificial Intelligence </label>
-                                                  </div>
-                                                  <div class="md-checkbox">
-                                                      <input type="checkbox" id="checkbox1_6" name="checkboxes2[]" value="3" class="md-check">
-                                                      <label for="checkbox1_6">
-                                                          <span></span>
-                                                          <span class="check"></span>
-                                                          <span class="box"></span> Electric Vehicles </label>
-                                                  </div>
-                                                  <div class="md-checkbox">
-                                                      <input type="checkbox" id="checkbox1_7" name="checkboxes2[]" value="3" class="md-check">
-                                                      <label for="checkbox1_7">
-                                                          <span></span>
-                                                          <span class="check"></span>
-                                                          <span class="box"></span> Internet of Things </label>
-                                                  </div>
-                                                  <div class="md-checkbox">
-                                                      <input type="checkbox" id="checkbox1_8" name="checkboxes2[]" value="3" class="md-check">
-                                                      <label for="checkbox1_8">
-                                                          <span></span>
-                                                          <span class="check"></span>
-                                                          <span class="box"></span> AR/VR </label>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
 
-                                      <div class="form-group form-md-checkboxes">
-                                          <label class="col-md-3 control-label" for="form_control_1"> Energy Domain </label>
-                                          <div class="col-md-9">
-                                              <div class="md-checkbox-list">
-                                                  <div class="md-checkbox">
-                                                      <input type="checkbox" name="checkboxes1[]" value="1" id="checkbox3_1" class="md-check">
-                                                      <label for="checkbox3_1">
-                                                          <span></span>
-                                                          <span class="check"></span>
-                                                          <span class="box"></span> Solar Rooftop PV </label>
-                                                  </div>
-                                                  <div class="md-checkbox">
-                                                      <input type="checkbox" name="checkboxes1[]" value="2" id="checkbox3_2" class="md-check">
-                                                      <label for="checkbox3_2">
-                                                          <span></span>
-                                                          <span class="check"></span>
-                                                          <span class="box"></span> Energy Storage System </label>
-                                                  </div>
-                                                  <div class="md-checkbox">
-                                                      <input type="checkbox" name="checkboxes1[]" value="3" id="checkbox3_3" class="md-check">
-                                                      <label for="checkbox3_3">
-                                                          <span></span>
-                                                          <span class="check"></span>
-                                                          <span class="box"></span> Smart Grid </label>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
 
-                                  </div>
-                                  <div class="form-actions">
-                                      <div class="row">
-                                          <div class="col-md-offset-3 col-md-9">
-                                              <button type="submit" class="btn green"><a href="profile.html">submit</button>
-                                              <button type="reset" class="btn default">Reset</button>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </form>
-                              <!-- END FORM-->
-                          </div>
-                      </div>
-                      <!-- END VALIDATION STATES-->
-                  </div>
 
-              </div>
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-</div>
+
+
+
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -663,6 +536,13 @@
   <script src="assets/jarallax/jarallax.js"></script>
   <script src="assets/mobirise/js/script.js"></script>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+  <script src="assets/vendors/base/vendors.bundle.js"></script>
+  <script src="assets/demo/default/base/scripts.bundle.js"></script>
+  <script src="assets/demo/default/custom/components/datatables/base/html-table.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+  <script src="assets/vendors/custom/fullcalendar/fullcalendar.bundle.js"></script>
+  <script src="assets/demo/default/custom/components/calendar/basic.js"></script>
 
 </body>
 </html>
